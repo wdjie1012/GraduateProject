@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+            android:id="@+id/item_stereo_stereoMode"
+            android:title="双目视觉"
+            app:showAsAction="never"
+    />
+    <item
+            android:id="@+id/item_stereo_stereoIMUMode"
+            android:title="双目视觉+IMU"
+            app:showAsAction="never"
+    />
+    <item
+            android:id="@+id/item_stereo_saveStereo"
+            android:title="保存地图"
+            app:showAsAction="never"
+    />
+    <item
+            android:id="@+id/item_stereo_recordCharge"
+            android:title="记录充电桩模版"
+            app:showAsAction="never"
+    />
+
+</menu>
